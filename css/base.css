@@ -1,3 +1,26 @@
+@charset "utf-8";
+@font-face{font-family:'bgr';src:url('fonts/bgr.eot');url('fonts/bgr.ttf') format('truetype'),font-weight:normal;font-style:normal;}
+[class^="icon-"],[class*=" icon-"]{font-family:'bgr' !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.icon-time:before{content:"\f051";}
+.icon-user-o:before{content:"\f2c0";}
+.icon-share2:before{content:"\e904";}
+.icon-star:before{content:"\e906";}
+.icon-thumbs-up:before{content:"\e905";}
+.icon-chat_bubble_outline:before{content:"\e0cb";}
+.icon-keyboard_arrow_left:before{content:"\e314";}
+.icon-keyboard_arrow_right:before{content:"\e315";}
+.icon-open_in_new:before{content:"\e89e";}
+.icon-share:before{content:"\e80d";}
+.icon-search:before{content:"\e900";}
+.icon-brand:before{content:"\e901";}
+.icon-brand2:before{content:"\e902";}
+.icon-brand3:before{content:"\e903";}
+.icon-notification:before{content:"\ea08";}
+.icon-facebook:before{content:"\ea90";}
+.icon-instagram:before{content:"\ea92";}
+
+body{max-width: 640px; margin: 0 auto;}
+
 .mui-plus header.mui-bar{
 	display: none;
 }
@@ -16,7 +39,7 @@
 }
 
 .hexagon {
-    width: 32px;
+    width: 38px;
     height: 18.475px;
     background: #ff6600;
     position: relative;
@@ -25,27 +48,27 @@
 .hexagon:before {
     content: "";
     position: absolute;
-    top: -9.238px;
+    top: -12px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
-    border-bottom: 9.238px solid #ff6600;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 12px solid #ff6600;
 }
 
 .hexagon:after {
     content: "";
     position: absolute;
-    bottom: -9.238px;
+    bottom: -12px;
     left: 0;
     width: 0;
     height: 0;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
-    border-top: 9.238px solid #ff6600;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-top: 12px solid #ff6600;
 }
-
+.hexagon i{display: block; width: 32px; height: 32px; color: #fff;}
 .xx{margin: 1em 0 0 1em;}
-.xx div{float: left; margin-right: 1em; font-size: 12px; text-align: center; color: #FF6600;}
+.xx div{width:42px;float: left; font-size: 12px; text-align: center; color: #FF6600; margin-right: 1em;;}
 .xx div span{color: #999;}
